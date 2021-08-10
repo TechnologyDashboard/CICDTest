@@ -9,6 +9,6 @@ public class CICDTestReturn {
 
     @GetMapping(value = "/cicdtest")
     public ResponseEntity sayHello(){
-        return ResponseEntity.ok().body("hello for CICD");
+        return ResponseEntity.ok().body("hello from CICD");
     }
 }
